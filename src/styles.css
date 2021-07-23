@@ -1,0 +1,134 @@
+p {
+  font-family: 'Inconsolata', monospace;
+}
+
+/*
+Heading
+*/
+
+header {
+  width: 120%;
+  background-color: #b71c1c;
+  margin-left: -10px;
+  margin-top: -22px;
+  box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.4);
+  font-family: 'Yomogi', cursive;
+}
+
+header > #highlight-icon {
+  font-size: 50px !important;
+  display: inline-block !important;
+  color: #fff;
+  margin-left: 80px;
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+}
+
+header > h1 {
+  color: #fff;
+  padding: 1em 1em 1em 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/*
+Note
+*/
+.note-title {
+  font-weight: bold;
+}
+
+.card {
+  background-color: #212121;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+  width: 230px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.delete-note {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+  padding-right: 10px;
+  color: #e73535;
+  cursor: pointer;
+  font-size: 30px !important;
+}
+
+/*footer*/
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*FormNote*/
+
+#form-note {
+  margin: 0 auto;
+  background-color: #212121;
+  padding: 10px;
+  height: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+#form-note > input {
+  background-color: #212121;
+  border: none;
+  color: #fff;
+  outline: none !important;
+}
+
+#form-note > button {
+  background-color: #b71c1c;
+  color: #fff;
+  padding: 7px;
+  border-radius: 50%;
+  float: right;
+  position: absolute;
+  right: 40px;
+  bottom: -17px;
+  font-family: 'Yomogi', cursive;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+#form-note > button:hover {
+  transform: translateX(5px);
+}
+
+#form-note > textarea {
+  background-color: #212121;
+  border: none;
+  color: grey;
+}
+
+.form-control:focus {
+  border: none !important;
+  outline: none;
+  box-shadow: none;
+}
+
+#form-note > p {
+  color: #fff;
+}
+
+#button-add {
+  transition: background-color 0.5s ease !important;
+}
+
+#button-add:hover {
+  background-color:#212121 !important;
+}
